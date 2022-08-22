@@ -1,1 +1,8 @@
-This is a readme
+video link: https://www.youtube.com/watch?v=Ha8Glloxoeo
+My project sees which perch my bird is on(their mirror or stick) and keeeps track of how much time they spend at each spot. It uses the thumbs project as it's base and has been edited pretty much only in the LIVE code block. 
+
+visually I have just added two integer widgets to show how much time has been spent in each spot. To call the changes i have two functions one for the mirror and one for the stick. Their both exactly the same except for names of variables and thing slike that. What they do is set a variable to Time.time at the start of when it's called to just get the time of when they first were at the perch they're on at that point. 
+
+to add time to each of the widgets numbers we have an if statement in live after both functions are called to check if at any point if the current place they're at changed from what it was before. Inside this if statement we then have two more if statements checking what the new perch is and then inside their we set a variable to Time.time - the variable we set to Time.time before to get the time between those two points which gives us the amount of time spent in a certain place than update the widget from which if statement were in. In these two if statements we then call functions again based on which perch the bird changed to. 
+
+in the end my project did not work but had no errors it made it so the bars did not move anymore and it would not predict anymore. I did go to office hours but did not find that much use out of it even after that it still did not work. I did have fun in this class though and really enjoyed it. I was also happy with the parts I coded even if it did not work in the thumbs project.
